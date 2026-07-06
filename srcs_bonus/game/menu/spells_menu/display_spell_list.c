@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:49:40 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:49:41 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:45:49 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,7 @@ static void	print_spell_lock(t_data *data, int i, double x, double y)
 
 static void	aff_spell_loop(t_data *data, double x, int offset, int i)
 {
-	unsigned int	color;
+	unsigned int	color = 0;
 	double			y;
 
 	while (x < offset + 64 * (i % 8 + 1) + 71 * (i % 8))

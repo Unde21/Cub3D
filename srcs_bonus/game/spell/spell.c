@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:51:33 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:51:34 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:45:56 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,9 +51,6 @@ void	spell_heal(t_data *data)
 
 void	cast_episkey(t_data *data, int info)
 {
-	long	save_time;
-
-	save_time = 0;
 	(void)info;
 	data->cast_spell = -1;
 	if (data->active_spell == -1 && get_mtime() > data->spell[EPISKEY].end_time

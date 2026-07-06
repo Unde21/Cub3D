@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:57:59 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:58:00 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:37:17 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,8 @@ static void	init_door(t_data *data, t_door **door)
 void	add_door(t_data *data, int y, int x, char c)
 {
 	t_door	*door;
-	t_door	**doors;
 
 	door = NULL;
-	doors = NULL;
 	init_door(data, &door);
 	set_door_pos(door, y, x, c);
 	data->door = add_end_lst(door, data->door, f_elem);

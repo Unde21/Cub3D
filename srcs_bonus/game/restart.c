@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:52:13 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 08:40:29 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:49:03 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ static void	reset_data_value(t_data *data)
 	int	i;
 
 	i = -1;
-	while (++i < 23)
-		data->spell[i].end_time = 0;
+	// while (++i < 23)
+	// 	data->spell[i].end_time = 0;
 	ft_bzero(&data->player.damage, sizeof(t_damage));
 	data->popo[0].nb = 0;
 	data->popo[1].nb = 0;

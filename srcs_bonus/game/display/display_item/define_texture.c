@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:46:43 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:46:44 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:43:35 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ static void	which_texture_enemy(t_data *data, int i, int j)
 
 void	set_texture(t_data *data, int i, int j)
 {
-	t_img	*front;
-	t_img	*back;
+	t_img	*front = NULL;
+	t_img	*back = NULL;
 
 	if (data->ray[i].items[j]->type == ITEM
 		|| data->ray[i].items[j]->type == VENTUS)
