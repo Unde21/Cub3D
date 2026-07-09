@@ -27,8 +27,6 @@
 	- [𝔽in de partie & Les 4 Coalition](#end)
 - [𝕀nstallation et Commandes](#setup)
 - [ℂonfiguration de la Map](#map)
-- [ℝesources](#resources)
-- [𝔹onus: Interactive Web Demo](#demo)
 </blockquote>
 </details>
 
@@ -75,9 +73,9 @@ Un FPS rétro en Raycasting (moteur personnalisé en C) entièrement inspiré de
 
 <blockquote>
 
-Pour ouvrir le grimoire / menu des sorts, appuyez sur la touche **[TOUCHE]**.
+Pour ouvrir le grimoire / menu des sorts, appuyez sur la touche **[N]**.
 
-![Menu des sorts](<!-- Insère ici ton screenshot du menu des sorts -->)
+<img src="ressource/README_asset/spell.png">
 
 Les sorts sont répartis en plusieurs catégories stratégiques :
 *   **Élémentaires** (Feu, Eau, etc.)
@@ -212,7 +210,7 @@ Au début de votre aventure, vous devez choisir votre camp parmi l'une des **4 c
 
 <details id= "setup">
 	<summary>
-		<h1> 🛠️ 𝕀nstallation</h2>
+		<h1> 🛠️ 𝕀nstallation </h2>
 	</summary>
 
 <blockquote>
@@ -220,7 +218,7 @@ Au début de votre aventure, vous devez choisir votre camp parmi l'une des **4 c
 ```bash
 # Cloner le projet
 git clone https://github.com/Unde21/Cub3D.git
-cd cub3d
+cd Cub3D
 
 # Compiler le projet
 make bonus
@@ -276,7 +274,7 @@ C 135,206,235   # Couleur du plafond (RGB)
 * **`x`** : Potion de Bouclier (*Shield Potion*).
 * **`c`** : Poudre de Cheminette (*Floo Powder*).
 * **`v`** : Fragment de la Cape d'Invisibilité (*Invisibility Fragment*).
-* **`f`** : **La Coupe des Quatre Sorciers / Portkey** 🏆 (Objectif final). Son placement génère également un pilier de support (`PILLAR`) et le moteur valide qu'il n'y a pas de doublon d'objectif à la génération.
+* **`f`** : **La Coupe des Quatre Sorciers / Portkey** 🏆 Objectif final.
 
 #### 🐺 Bestiaire (Ennemis) :
 * **`.`** : Détraqueur (*Dementor*).
