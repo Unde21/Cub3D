@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:51:13 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:51:14 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:46:33 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,6 @@
 
 void	cast_protego(t_data *data, int info)
 {
-	long	save_time;
-
-	save_time = 0;
 	(void)info;
 	data->cast_spell = -1;
 	if (data->active_spell == -1 && get_mtime() > data->spell[PROTEGO].end_time
@@ -35,10 +32,8 @@ void	cast_protego(t_data *data, int info)
 
 void	cast_opugno(t_data *data, int info)
 {
-	long	save_time;
 	int		i;
-
-	save_time = 0;
+	
 	(void)info;
 	data->cast_spell = -1;
 	if (data->active_spell == -1 && get_mtime() > data->spell[OPPUGNO].end_time
@@ -63,9 +58,7 @@ void	cast_opugno(t_data *data, int info)
 void	cast_serpensortia(t_data *data, int info)
 {
 	t_fcoo	coo;
-	long	save_time;
 
-	save_time = 0;
 	(void)info;
 	data->cast_spell = -1;
 	if (data->active_spell == -1
@@ -88,9 +81,6 @@ void	cast_serpensortia(t_data *data, int info)
 
 void	cast_vulnera_sanentur(t_data *data, int info)
 {
-	long	save_time;
-
-	save_time = 0;
 	(void)info;
 	data->cast_spell = -1;
 	if (data->active_spell == -1

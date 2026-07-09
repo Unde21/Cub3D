@@ -6,7 +6,7 @@
 /*   By: ale-guel <ale-guel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 07:49:55 by ale-guel          #+#    #+#             */
-/*   Updated: 2025/12/10 07:49:56 by ale-guel         ###   ########.fr       */
+/*   Updated: 2026/07/03 00:43:49 by ale-guel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,8 +89,6 @@ int	get_right_color(int color, double distance)
 	a = (int)(255 * (1 - distance / 40.0));
 	if (a > 255)
 		a = 255;
-	if (a < 0)
-		a = 0;
 	color = (a << 24) + (r << 16) + (g << 8) + b;
 	return (color);
 }
