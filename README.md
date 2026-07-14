@@ -6,7 +6,7 @@
 <b><font size="2">*end*[^1]</b></font>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Cub3D&fontSize=120&animation=scaleIn&fontAlignY=42&fontAlign=48&desc=2.5D%20RPG%20GAME&descAlignY=60&descAlign=74" alt="Cub3D">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Cub3D&fontSize=120&animation=scaleIn&fontAlignY=42&fontAlign=48&desc=2.5D%20RPG%20GAME&descAlignY=60&descAlign=74" alt="Cub3D"/>
 </p>
 
 ---
